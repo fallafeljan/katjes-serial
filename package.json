@@ -1,8 +1,10 @@
 {
-  "name": "katjes-serial-client",
+  "name": "katjes-serial",
   "version": "0.1.0",
-  "description": "🐱🔌 serial client for katjes",
-  "main": "index.js",
+  "description": "🐱🔌 serial-forwarding client for katjes",
+  "bin": {
+    "katjes-serial": "./bin/index.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/fallafeljan/katjes-serial-client.git"
