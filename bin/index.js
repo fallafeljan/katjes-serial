@@ -9,12 +9,8 @@ let args
 
 try {
   args = parseOptions(process.argv.slice(2), {
-    p: {
-      alias: 'path'
-    },
-    h: {
-      alias: 'host'
-    }
+    p: 'path',
+    h: 'host'
   })
 }
 catch (err) {
